@@ -99,6 +99,14 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/receptendatabase",
+            "netlifyToken": "affbb4a7c08b9b64b20d3704d3fc7990d3c8fc42cc7c9abcb166490c23b3c725",
+            "siteId": "f2060374-e336-45d5-95f7-cd646d92b10c"
+          }
         }
       }
     },
